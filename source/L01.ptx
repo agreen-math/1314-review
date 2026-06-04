@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="lesson-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="lesson-1" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Lesson 01</title>
 
     <exercise xml:id="lesson-1-determine-functions" workspace="3in">
@@ -354,7 +354,7 @@
             <statement>
                 <figure xml:id="fig-lesson-1-graph-1">
                     <caption>First Graph</caption>
-                    <image>
+                    <image width="50%">
                         <description>
                             A coordinate plane displaying multiple curves.
                             On the left side of the y-axis, there are two
@@ -848,4 +848,4 @@
 </solution>
         </task>
     </exercise>
-</section>
+</worksheet>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="lesson-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+<worksheet xml:id="lesson-2" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Lesson 02</title>
 
 <exercise xml:id="lesson-2-describe-functions" workspace="3in">
@@ -57,15 +57,38 @@
 
     </figure>
     </statement>
-    <hint>
-      <p>Read the graph from left to right, identifying where the <m>y</m>-values rise, fall, or stay flat. Look for the highest and lowest points in specific regions.</p>
-    </hint>
-    <answer>
-      <p>Determine visually from the graph's behavior.</p>
-    </answer>
-    <solution>
-      <p>To find intervals of increase, decrease, and constant behavior, trace the graph horizontally from left to right and record the <m>x</m>-intervals where the <m>y</m>-values rise, fall, or remain horizontal. Relative maxima occur at the <m>x</m>-coordinates of "peaks," and relative minima occur at the <m>x</m>-coordinates of "valleys."</p>
-    </solution>
+<hint>
+  <p>Trace the graph from left to right, noting the <m>x</m>-coordinates where the graph changes direction. The function is increasing when the <m>y</m>-values go up, decreasing when they go down, and constant when the line is perfectly flat. "Peaks" indicate relative maxima and "valleys" indicate relative minima.</p>
+</hint>
+<answer>
+  <ul>
+    <li><p>Increasing: <m>(-5, -2) \cup (2, 7)</m></p></li>
+    <li><p>Decreasing: <m>(-8, -5) \cup (-2, 2)</m></p></li>
+    <li><p>Constant: <m>(7, \infty)</m></p></li>
+    <li><p>Relative maximum: <m>8</m> at <m>x = -2</m></p></li>
+    <li><p>Relative minima: <m>2</m> at <m>x = -5</m> and <m>-9</m> at <m>x = 2</m></p></li>
+  </ul>
+</answer>
+<solution>
+  <p>By analyzing the coordinates of the vertices on the given graph, we can determine the function's behavior over its domain:</p>
+  <ul>
+    <li>
+      <p><strong>Increasing:</strong> The <m>y</m>-values rise between <m>x = -5</m> and <m>x = -2</m>, and again between <m>x = 2</m> and <m>x = 7</m>. Expressed as open intervals, the function is increasing on <m>(-5, -2) \cup (2, 7)</m>.</p>
+    </li>
+    <li>
+      <p><strong>Decreasing:</strong> The <m>y</m>-values fall starting from <m>x = -8</m> to <m>x = -5</m>, and they also fall continuously from <m>x = -2</m> down to <m>x = 2</m>. Expressed as open intervals, the function is decreasing on <m>(-8, -5) \cup (-2, 2)</m>.</p>
+    </li>
+    <li>
+      <p><strong>Constant:</strong> The graph becomes a horizontal line starting at <m>x = 7</m> and continues to the right indefinitely (indicated by the arrow on the ray). Thus, the interval is <m>(7, \infty)</m>.</p>
+    </li>
+    <li>
+      <p><strong>Relative Maxima:</strong> The graph has a "peak" (a point higher than those immediately surrounding it) at the coordinate <m>(-2, 8)</m>. Therefore, the function has a relative maximum of <m>8</m> at <m>x = -2</m>.</p>
+    </li>
+    <li>
+      <p><strong>Relative Minima:</strong> The graph has two "valleys" (points lower than those immediately surrounding them) at the coordinates <m>(-5, 2)</m> and <m>(2, -9)</m>. Therefore, the function has relative minima of <m>2</m> at <m>x = -5</m> and <m>-9</m> at <m>x = 2</m>.</p>
+    </li>
+  </ul>
+</solution>
   </task>
   <task>
     <statement>
@@ -393,4 +416,4 @@
   </task>
 </exercise>
     
-</section>
+</worksheet>
