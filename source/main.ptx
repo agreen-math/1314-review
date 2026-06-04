@@ -4,15 +4,22 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <article xml:id="midterm-review">
+  <article xml:id="exam-reviews">
     <title>Midland College MATH 1314</title>
     <subtitle>Midterm Exam Review</subtitle>
 
+    <worksheet xml:id="midterm-review">
+      <title>Midterm Review</title>
+      <xi:include href="./L01.ptx" />
+    <!--<xi:include href="./L02.ptx" />-->
+      </worksheet>
+      <!-- The next line is an example of how to include a video: -->
+      <!-- <video source="https://www.youtube.com/embed/VIDEO_ID" /> -->
     <!-- Include frontmatter 
     <xi:include href="./frontmatter.ptx" />-->
 
     <!-- Include chapters -->
-    <xi:include href="./L01.ptx" />
+  
 
 
     <!-- Include backmatter 
